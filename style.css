@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    /* background-color: #f4f4f4; */
+    /* display: flex; */
+}
+
+.header{
+    display: flex ;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(194, 181, 181);
+}
+
+.stack{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+.navbar{
+    display: flex;
+    margin: 30px ;
+    padding-left: 100vh;
+    justify-content: space-between;  
+    gap: 15%;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar a{
+    color: black;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: rgb(146, 183, 216);
+}
+
+.cell{
+    padding: 6%;
+    padding-left: 1%;
+}
+.cell h1{
+    font-size: 8vh;
+}
+
+.cell button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cell button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.ad{
+    display: flex;
+}
+
+.dish1{
+    margin-top: 6vh;
+    /* margin-right: 20vh; */
+    width: 500px;
+    height: 500px;
+    border: 2px;
+    overflow: hidden;
+}
+
+.dish1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* .one{
+    padding: 0% 40%;
+} */
+
+.one h1{
+    text-align: center;
+    border: 0%;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 5vh;
+}
+
+.two{
+   background-color: white;
+   text-align: center;
+   box-shadow: 5px 6px 5px rgb(194, 181, 181);
+   border-radius: 25px;
+}
+
+.two img{
+    width: 50%;
+    height: 50%;
+    border: 2px;
+    overflow: hidden;
+}
+
+.menu{
+    /* margin-top: 10%; */
+    margin: 7% 7%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.ad3 {
+    text-align: center;
+    border: 0px solid rgb(255, 252, 252);
+    border-radius: 20px;
+    padding: 32px 16px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.ad3 button{
+    background-color: green;
+    border: 0px solid black;
+    color: aliceblue;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 8px;
+}
+
+.ad3 button:hover{
+    background-color: #7ee07b;
+}
+
+.ad2one{
+    padding: 0% 43%;
+}
+.ad2one h1{
+    text-align: center;
+    border: 0%;
+    border-radius: 90px;
+    padding: 8px 0px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 5vh;
+}
+
+.three{
+    background-color: white;
+   text-align: center;
+   box-shadow: 5px 6px 5px rgb(194, 181, 181);
+   border-radius: 25px;
+}
+
+.map{
+    text-align: center;
+    padding: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #f4fbff;
+    color: rgb(0, 0, 0);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 24px 24px;
+}
+
+.fa-youtube{
+    background: #ff0000;
+    color: white;
+    border-radius: 24px 24px;
+}
+
+.fa-linkedin {
+    background: #80a8fd;
+    color: white;
+    border-radius: 24px 24px;
+}
+
+.fa-instagram {
+    background: #05205c;
+    color: white;
+    border-radius: 24px 24px;
+}
+
